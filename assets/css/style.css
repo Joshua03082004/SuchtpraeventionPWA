@@ -1,0 +1,30 @@
+.question {
+    margin-bottom: 1rem;
+  }
+  
+  .options {
+    display: flex;
+    gap: 1rem;
+    justify-content: center;
+    flex-wrap: wrap; /* Falls Platz eng wird, brechen die Optionen in die nächste Zeile */
+  }
+  
+  .option {
+    border: 2px solid #ccc;
+    border-radius: 5px;
+    padding: 1rem;
+    max-width: 280px;
+    cursor: pointer;
+    text-align: center;
+  }
+  
+  .option-image {
+    width: 100%;
+    height: auto;
+    margin-bottom: 0.5rem;
+  }
+  
+  #result-container {
+    text-align: center;
+  }
+  
